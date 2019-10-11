@@ -12,6 +12,8 @@ public class IntegerParse {
     }
 
     public static void main(String a[]) {
-        parseInteger("239");
+        value = parseInteger("239");
+        int number = parseInt(value);
+        System.out.println(number);
     }
 }
